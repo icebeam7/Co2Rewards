@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Co2Rewards.StartScreen"
+BackgroundImage="background.png">
+	<ContentPage.Content>
+	</ContentPage.Content>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem x:Name="btnTrip" Clicked="btnTrip_Clicked" Order="Primary" Text="Start trip" Priority="0" Icon="car.png"/>
+		<ToolbarItem x:Name="btnRewards" Clicked="btnRewards_Clicked" Order="Primary" Text="Rewards" Priority="1" Icon="gift.png"/>
+		<ToolbarItem x:Name="btnInfo" Clicked="btnInfo_Clicked" Order="Primary" Text="My info" Priority="2" Icon="info.png"/>
+		<ToolbarItem x:Name="btnPartners" Clicked="btnPartners_Clicked" Order="Primary" Text="Partners" Priority="3" Icon="partners.png"/>
+		<ToolbarItem x:Name="btnAbout" Clicked="btnAbout_Clicked" Order="Secondary" Text="About the app" Priority="4" Icon="about.png"/>
+	</ContentPage.ToolbarItems>
+
+</ContentPage>

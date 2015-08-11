@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Co2Rewards.About"
+BackgroundImage="background.png">
+	<ContentPage.Content>
+		<StackLayout>
+			<Label Text="My name is Luis Antonio Beltran Prieto. I'm a PhD student at Tomas Bata University in Zlin, Czech Republic."/>
+			<Label Text="I'm the developer of this app, CO2Rewards, which is my entry for the 'Hack Your Ride: Apps for Cars Developer Contest' sponsored by moj.io, AT&#38;T and Invoke Media"/>
+			<Label Text="Contact me at luis.beltran@itcelaya.edu.mx in case you have any questions regarding the app."/>
+			<Label Text="Let's help the world by decreasing the CO2 evels that we emit with our daily activities. Your kids will thank you in the future."/>
+			<Label Text="Thanks in advance for reviewing this app!"/>
+		</StackLayout>
+	</ContentPage.Content>
+
+	<ContentPage.ToolbarItems>
+		<ToolbarItem x:Name="btnMail" Clicked="btnMail_Clicked" Order="Primary" Text="Send email" Priority="0" Icon="mail.png"/>
+	</ContentPage.ToolbarItems>
+</ContentPage>
